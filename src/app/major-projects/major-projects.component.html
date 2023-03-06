@@ -1,0 +1,18 @@
+<h3>Principales Proyectos</h3>
+<ul *ngFor="let project of majorProjects">
+    <li style="padding: 0px 50px;">
+        <tr>
+            <td>{{ project.fecha }}</td>
+        </tr>
+        <tr>
+            <td>{{ project.titulo }}</td>
+        </tr>
+        <tr>
+            <td>{{ project.ubicacion }}</td>
+        </tr>
+        <tr>
+            <td>{{ project.descripcion }}</td>
+        </tr>
+    </li>
+    <hr>
+</ul>
